@@ -100,7 +100,7 @@ void ToDoList::loadFromFile(const std::string& filename) {
 }
 
 Task ToDoList::getTask(int index) const {
-    return tasks.at(index); // Use at() for bounds checking
+    return tasks.at(index); 
 }
 
 int ToDoList::getTaskCount() const {
